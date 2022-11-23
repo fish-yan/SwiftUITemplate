@@ -11,6 +11,8 @@
 		937A51E6292DC00F00BDB9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A51E5292DC00F00BDB9E2 /* ContentView.swift */; };
 		937A51E8292DC01000BDB9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937A51E7292DC01000BDB9E2 /* Assets.xcassets */; };
 		937A51EC292DC01000BDB9E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937A51EB292DC01000BDB9E2 /* Preview Assets.xcassets */; };
+		937A51F5292DC08100BDB9E2 /* TemplateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A51F4292DC08100BDB9E2 /* TemplateUI.swift */; };
+		937A51F7292DEFB200BDB9E2 /* Content.text in Resources */ = {isa = PBXBuildFile; fileRef = 937A51F6292DEFB200BDB9E2 /* Content.text */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		937A51E7292DC01000BDB9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937A51E9292DC01000BDB9E2 /* SwiftUITemplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITemplate.entitlements; sourceTree = "<group>"; };
 		937A51EB292DC01000BDB9E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		937A51F4292DC08100BDB9E2 /* TemplateUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateUI.swift; sourceTree = "<group>"; };
+		937A51F6292DEFB200BDB9E2 /* Content.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Content.text; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				937A51E3292DC00F00BDB9E2 /* SwiftUITemplateApp.swift */,
 				937A51E5292DC00F00BDB9E2 /* ContentView.swift */,
+				937A51F6292DEFB200BDB9E2 /* Content.text */,
+				937A51F4292DC08100BDB9E2 /* TemplateUI.swift */,
 				937A51E7292DC01000BDB9E2 /* Assets.xcassets */,
 				937A51E9292DC01000BDB9E2 /* SwiftUITemplate.entitlements */,
 				937A51EA292DC01000BDB9E2 /* Preview Content */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937A51F7292DEFB200BDB9E2 /* Content.text in Resources */,
 				937A51EC292DC01000BDB9E2 /* Preview Assets.xcassets in Resources */,
 				937A51E8292DC01000BDB9E2 /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937A51E6292DC00F00BDB9E2 /* ContentView.swift in Sources */,
+				937A51F5292DC08100BDB9E2 /* TemplateUI.swift in Sources */,
 				937A51E4292DC00F00BDB9E2 /* SwiftUITemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
