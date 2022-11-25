@@ -7,24 +7,20 @@
 
 import SwiftUI
 
+class AppDelegate: NSObject, UIApplicationDelegate {
+    static var orientationLock = UIInterfaceOrientationMask.portrait
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return AppDelegate.orientationLock
+    }
+}
+
 @main
 struct SwiftUITemplateApp: App {
-    @Environment(\.scenePhase) var scenePhase
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
-        .onChange(of: scenePhase) { newValue in
-            switch newValue {
-            case .active:
-                print("App is active")
-            case .inactive:
-                print("App is inactive")
-            case .background:
-                print("App is in background")
-            @unknown default:
-                print("Oh - interesting: I received an unexpected new value.")
-            }
+            STHomeContentView()
         }
     }
 }
