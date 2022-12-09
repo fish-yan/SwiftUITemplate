@@ -20,7 +20,8 @@ struct STWidgetModel {
 struct STHomeContentView: View {
     let data = [
         STSectionModel(title: "Controls", widgets: [
-            STWidgetModel(title: "Text", content: STText())
+            STWidgetModel(title: "Text", content: STText()),
+            STWidgetModel(title: "TextField", content: STTextField())
         ]),
         STSectionModel(title: "Example", widgets: [
             STWidgetModel(title: "Number", content: STNumberView()),
